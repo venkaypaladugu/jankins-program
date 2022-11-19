@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Rani\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'angular-cli' ]
+2 info using npm@3.10.8
+3 info using node@v4.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData angular-cli
+8 silly fetchNamedPackageData angular-cli
+9 silly mapToRegistry name angular-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'angular-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'angular-cli',
+12 silly mapToRegistry   name: 'angular-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/angular-cli
+14 verbose request uri https://registry.npmjs.org/angular-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:31:42 PM
+17 verbose request id 08c114548b1a9b1f
+18 verbose etag "81C1EE241RC94OAEYO17RV23K"
+19 http request GET https://registry.npmjs.org/angular-cli
+20 http 304 https://registry.npmjs.org/angular-cli
+21 verbose headers { date: 'Wed, 28 Sep 2016 17:01:46 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"81C1EE241RC94OAEYO17RV23K"',
+21 verbose headers   age: '20',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1475082106.954815,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Wed, 28 Sep 2016 17:01:46 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"81C1EE241RC94OAEYO17RV23K"',
+22 silly get     age: '20',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-sin6927-SIN',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1475082106.954815,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/angular-cli from cache
+24 verbose get saving angular-cli to C:\Users\Rani\AppData\Roaming\npm-cache\registry.npmjs.org\angular-cli\.cache.json
+25 verbose correctMkdir C:\Users\Rani\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
